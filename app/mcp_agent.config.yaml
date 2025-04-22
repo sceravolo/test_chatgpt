@@ -1,0 +1,10 @@
+$schema: "https://raw.githubusercontent.com/lastmile-ai/mcp-agent/main/schema/mcp-agent.config.schema.json"
+
+mcp:
+  servers:
+    fetch:
+      command: "npx"
+      args: ["-y", "@modelcontextprotocol/server-fetch"]
+    filesystem:
+      command: "npx"
+      args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
